@@ -31,7 +31,7 @@ namespace Registro_de_estudiantes
             {
                 this.DialogResult = DialogResult.OK;
 
-                MessageBox.Show("Acceso Concedio, Bienvenido/a");
+                MessageBox.Show("Acceso Concedido, Bienvenido/a");
 
                 //Este codigo de abajo es para que lo mande al sigueinte formulario
 

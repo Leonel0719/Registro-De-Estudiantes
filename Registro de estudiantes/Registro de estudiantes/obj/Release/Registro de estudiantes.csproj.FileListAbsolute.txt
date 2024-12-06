@@ -1,0 +1,11 @@
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\bin\Release\Registro de estudiantes.exe.config
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\bin\Release\Registro de estudiantes.exe
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\bin\Release\Registro de estudiantes.pdb
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\obj\Release\Registro de estudiantes.csproj.AssemblyReference.cache
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\obj\Release\Registro_de_estudiantes.Form1.resources
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\obj\Release\Registro_de_estudiantes.Form2.resources
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\obj\Release\Registro_de_estudiantes.Properties.Resources.resources
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\obj\Release\Registro de estudiantes.csproj.GenerateResource.cache
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\obj\Release\Registro de estudiantes.csproj.CoreCompileInputs.cache
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\obj\Release\Registro de estudiantes.exe
+C:\Users\leone\OneDrive\Escritorio\Registro-De-Estudiantes\Registro de estudiantes\Registro de estudiantes\obj\Release\Registro de estudiantes.pdb
