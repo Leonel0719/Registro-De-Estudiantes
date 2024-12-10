@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Registro_de_estudiantes
 {
     public partial class Form2 : Form
@@ -19,7 +20,7 @@ namespace Registro_de_estudiantes
             InitializeComponent();
         }
 
-        //Boton de guardar
+        //Boton de guardar registro
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             Alumno alumno = new Alumno();
@@ -55,11 +56,13 @@ namespace Registro_de_estudiantes
             RefreshPantalla();
             txtId.Enabled = false;
         }
+
         //Función para refrecar la pantalla y mostrar los datos
         public void RefreshPantalla()
         {
             dataGridView1.DataSource = AlumnoDAL.PresentarRegistro();
         }
+
         //Boton para regresar al login
         private void btnSalir_Click(object sender, EventArgs e)
         {
@@ -72,6 +75,7 @@ namespace Registro_de_estudiantes
         {
 
         }
+
         //Mostrar registros en el formulario
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
@@ -84,6 +88,7 @@ namespace Registro_de_estudiantes
             txtphone.Text = Convert.ToString(dataGridView1.CurrentRow.Cells["Telefono"].Value);
         }
 
+        //Boton para limpiar los campos
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             txtName.Text = "";
@@ -94,6 +99,7 @@ namespace Registro_de_estudiantes
             txtphone.Text = "";
         }
 
+        //Boton para eliminar el registro
         private void button1_Click(object sender, EventArgs e)
         {
             if(dataGridView1.SelectedRows.Count == 1)

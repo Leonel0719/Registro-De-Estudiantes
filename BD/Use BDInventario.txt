@@ -1,0 +1,17 @@
+Use BDInventario
+Go
+
+Create Table Administrador(
+Id int Primary Key Identity(1,1) NOT NULL,
+Nombre Varchar(50) NOT NULL,
+Contraseña Varchar(50) NOT NULL,
+)
+Go
+Create Table Producto(
+Id Int Primary Key Identity(1,1) NOT NULL,
+Nombre Varchar(100) NOT NULL,
+Cantidad Int NOT NULL,
+Dimensiones Varchar(100) NULL,
+FechaEntrada DateTime NOT NULL,
+Descripcion Varchar(100) NOT NULL,
+)

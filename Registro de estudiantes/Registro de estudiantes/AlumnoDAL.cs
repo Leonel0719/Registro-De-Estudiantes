@@ -6,16 +6,17 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Registro_de_estudiantes
-{
+{   //Clase para añadir los metodos 
     public class AlumnoDAL
-    {
-        //Comandos para insertar registros a la base de datos
+    {   
+        //Metodo Para agregar un registro a la base de datos ↓↓↓↓↓↓↓↓
         public static int AgregarAlumno(Alumno alumno)
         {
             int retorna = 0;
 
             using (SqlConnection conexion = BDAlumno.ObtenerConexion())
-            {
+            {   
+                //Comando para insertar elnregistro en la base de datos↓↓↓
                 string query = "Insert Into Alumno (Nombre,Apellido,Edad,Direccion,Responsable,Telefono)Values('"+alumno.Nombre+"' , '"+alumno.Apellido+"' , "+alumno.Edad+" , '"+alumno.Direccion+"' , '"+alumno.Responsable+"' , '"+alumno.Telefono+"')";
                 SqlCommand comando = new SqlCommand(query,conexion);
 
@@ -25,13 +26,15 @@ namespace Registro_de_estudiantes
             return retorna;
         } 
 
+        //Metodo para presentar los registros en del DataGridView ↓↓↓↓
         public static List<Alumno> PresentarRegistro()
         {
             List<Alumno> lista = new List<Alumno>();
 
             //Comando para mostrar todos los registro en el DataView
             using (SqlConnection conexion = BDAlumno.ObtenerConexion())
-            {
+            {   
+                //Comando para mostrar todos los registro en el DataView↓↓↓↓↓↓
                 string query = "Select *From Alumno";
                 SqlCommand comando = new SqlCommand(query, conexion);
 
@@ -55,6 +58,8 @@ namespace Registro_de_estudiantes
             }
                 
         }
+
+        //Metodo para modificar alumno(Falta modificarlo y adaptarlo con un boton independiente)
         public static int ModificarAlumno(Alumno alumno)
         {
             int result = 0;

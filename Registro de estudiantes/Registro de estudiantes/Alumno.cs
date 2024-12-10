@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Registro_de_estudiantes
-{
+{   
+    //Clase donde se agregan las variables
     public class Alumno
     {
         public int Id { get; set; }
@@ -16,6 +17,7 @@ namespace Registro_de_estudiantes
         public string Responsable { get; set; }
         public string Telefono { get; set; }
 
+        //Constructor 
         public Alumno() { }
 
         public Alumno(int id, string nombre, string apellido, int edad, string direccion, string responsable, string telefono)
