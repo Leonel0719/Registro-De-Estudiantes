@@ -118,5 +118,10 @@ namespace Registro_de_estudiantes
             }
             RefreshPantalla();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -49,6 +49,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -169,7 +170,7 @@
             // btnGuardar
             // 
             this.btnGuardar.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Location = new System.Drawing.Point(12, 221);
+            this.btnGuardar.Location = new System.Drawing.Point(12, 192);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(110, 39);
             this.btnGuardar.TabIndex = 12;
@@ -188,7 +189,7 @@
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.btnSalir.Location = new System.Drawing.Point(12, 409);
+            this.btnSalir.Location = new System.Drawing.Point(12, 422);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(110, 39);
             this.btnSalir.TabIndex = 14;
@@ -219,7 +220,7 @@
             // btnLimpiar
             // 
             this.btnLimpiar.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.btnLimpiar.Location = new System.Drawing.Point(12, 290);
+            this.btnLimpiar.Location = new System.Drawing.Point(12, 303);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(110, 39);
             this.btnLimpiar.TabIndex = 17;
@@ -248,7 +249,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.button1.Location = new System.Drawing.Point(12, 350);
+            this.button1.Location = new System.Drawing.Point(12, 364);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 39);
             this.button1.TabIndex = 20;
@@ -256,12 +257,24 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button2.Location = new System.Drawing.Point(12, 248);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 39);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "Modificar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(965, 503);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label8);
@@ -315,5 +328,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
